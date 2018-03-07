@@ -1,0 +1,44 @@
+.flex-container {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+}
+body {
+    font-family:'Aclonica';font-size:14px;color:indianred;
+}
+img {
+	border-radius:16px;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+}
+.jumbotron {
+	/*background: color #3333;*/
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	margin-left:25px;
+	margin-right:25px;
+}
+
+.jumbotron h1 {
+	color: indianred;
+}
+
+/*p, h1, h4 {
+	font-family: 'Roboto Slab', serif;
+}
+
+#funText {
+	color: black;
+	font-size: 24px;
+	font-family: 'Roboto Slab', serif;
+}*/
+
+#box {
+	height: 100px;
+	width: 100px;
+	margin:auto;
+}
